@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS ENTRADAS;
-CREATE TABLE ENTRADAS (
-    ID INTEGER PRIMARY KEY AUTOINCREMENT,
-    TITULO STRING NOT NULL,
-    TEXTO STRING NOT NULL
+drop table if exists entradas;
+create table entradas (
+  id integer primary key autoincrement,
+  titulo string not null,
+  texto string not null
 );
